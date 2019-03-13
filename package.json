@@ -1,4 +1,11 @@
 {
     "name": "@imritesh/form",
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "description": "An easy way to validate forms using laravel backend logic",
+    "author": "Ritesh Singh",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/riteshsingh1/vue-laravel-form.git"
+    }
 }
