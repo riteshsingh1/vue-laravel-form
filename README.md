@@ -23,7 +23,23 @@ $ yarn add axios
 ```
 
 ## Usage
-
+```html
+ <div class="form-group form-row is-invalid">
+        <label for="form" class="col-md-3">Name</label>
+        <input
+          type="text"
+          id="form"
+          class="form-control col-md-9"
+          v-model="form.code"
+          :class="{ 'is-invalid': form.errors.has('code') }"
+        >
+        <span
+          class="invalid-feedback col-md-9 offset-3"
+          v-if="form.errors.has('code')"
+          v-text="form.errors.first('code')"
+        ></span>
+</div>
+```
 ```js
 
 import Form from 'form-backend-validation';
